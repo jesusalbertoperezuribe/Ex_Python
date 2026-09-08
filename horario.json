@@ -1,0 +1,128 @@
+[
+    {
+        "materia": "Matemáticas",
+        "dia": "Lunes",
+        "hora_inicio": "08:00 AM",
+        "hora_fin": "10:00 AM",
+        "ubicacion": "Aula 101"
+    },
+    {
+        "materia": "Inglés",
+        "dia": "Lunes",
+        "hora_inicio": "10:00 AM",
+        "hora_fin": "12:00 PM",
+        "ubicacion": "Aula 201"
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Lunes",
+        "hora_inicio": "12:00 PM",
+        "hora_fin": "02:00 PM",
+        "ubicacion": "Cafetería"
+    },
+    {
+        "materia": "Programación",
+        "dia": "Lunes",
+        "hora_inicio": "02:00 PM",
+        "hora_fin": "04:00 PM",
+        "ubicacion": "Laboratorio 3"
+    },
+    {
+        "materia": "Física",
+        "dia": "Martes",
+        "hora_inicio": "08:00 AM",
+        "hora_fin": "10:00 AM",
+        "ubicacion": "Aula 202"
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Martes",
+        "hora_inicio": "12:00 PM",
+        "hora_fin": "02:00 PM",
+        "ubicacion": "Cafetería"
+    },
+    {
+        "materia": "Matemáticas",
+        "dia": "Miércoles",
+        "hora_inicio": "08:00 AM",
+        "hora_fin": "10:00 AM",
+        "ubicacion": "Aula 101"
+    },
+    {
+        "materia": "Física",
+        "dia": "Miércoles",
+        "hora_inicio": "10:00 AM",
+        "hora_fin": "12:00 PM",
+        "ubicacion": "Aula 202"
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Miércoles",
+        "hora_inicio": "12:00 PM",
+        "hora_fin": "02:00 PM",
+        "ubicacion": "Cafetería"
+    },
+    {
+        "materia": "Inglés",
+        "dia": "Miércoles",
+        "hora_inicio": "02:00 PM",
+        "hora_fin": "04:00 PM",
+        "ubicacion": "Aula 201"
+    },
+    {
+        "materia": "Química",
+        "dia": "Jueves",
+        "hora_inicio": "08:00 AM",
+        "hora_fin": "10:00 AM",
+        "ubicacion": "Laboratorio 1"
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Jueves",
+        "hora_inicio": "12:00 PM",
+        "hora_fin": "02:00 PM",
+        "ubicacion": "Cafetería"
+    },
+    {
+        "materia": "Historia",
+        "dia": "Viernes",
+        "hora_inicio": "08:00 AM",
+        "hora_fin": "10:00 AM",
+        "ubicacion": "Aula 105"
+    },
+    {
+        "materia": "Programación",
+        "dia": "Viernes",
+        "hora_inicio": "10:00 AM",
+        "hora_fin": "12:00 PM",
+        "ubicacion": "Laboratorio 3"
+    },
+    {
+        "materia": "Almuerzo",
+        "dia": "Viernes",
+        "hora_inicio": "12:00 PM",
+        "hora_fin": "02:00 PM",
+        "ubicacion": "Cafetería"
+    },
+    {
+        "materia": "python",
+        "dia": "Miercoles",
+        "hora_inicio": "03:00",
+        "hora_fin": "04:00",
+        "ubicacion": "sin ubicación"
+    },
+    {
+        "materia": "Quimica",
+        "dia": "viernes",
+        "hora_inicio": "05:00",
+        "hora_fin": "06:00",
+        "ubicacion": "sin ubicación"
+    },
+    {
+        "materia": "Programacion",
+        "dia": "Miercoles",
+        "hora_inicio": "02:00",
+        "hora_fin": "03:00",
+        "ubicacion": "Principal"
+    }
+]
