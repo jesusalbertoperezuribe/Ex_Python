@@ -93,3 +93,73 @@ def generar_reporte(lista_materias):
         print("\n¡Reporte JSON generado exitosamente como 'reporte_horario.json'!")
     except Exception as e:
         print(f"Error al guardar el reporte: {e}")
+
+# --- FUNCIONALIDAD NUEVA: BUSCADOR ---
+# def buscar_en_horario(lista_materias, tipo_busqueda, valor_buscado):
+#     print(f"\n==========================================")
+#     print(f"RESULTADOS DE BÚSQUEDA: {valor_buscado.upper()}")
+#     print(f"==========================================")
+#     encontrado = False
+#     for m in lista_materias:
+#         # Comparamos ignorando mayúsculas/minúsculas
+#         if valor_buscado.lower() in m[tipo_busqueda].lower():
+#             print(f" - {m['materia']} | {m['dia']} | {m['hora_inicio']} a {m['hora_fin']} | {m['ubicacion']}")
+#             encontrado = True
+#     
+#     if not encontrado:
+#         print(f"No se encontraron resultados para su búsqueda.")
+#     print("==========================================\n")
+# --- FUNCIONALIDAD: VACIAR HORARIO ---
+# def vaciar_horario(lista_materias):
+#     # El método .clear() vacía la lista por completo
+#     lista_materias.clear() 
+#     guardar_datos(lista_materias)
+#     print("\n==========================================")
+#     print("¡El horario ha sido borrado por completo!")
+#     print("==========================================\n")
+# import csv # (NO OLVIDES QUITARLE EL # Y PONERLO AL INICIO DEL ARCHIVO)
+
+# --- FUNCIONALIDAD: EXPORTAR A EXCEL (CSV) ---
+# def exportar_a_csv(lista_materias):
+#     if len(lista_materias) == 0:
+#         print("\nEl horario está vacío, no hay nada que exportar.")
+#         return
+#     
+#     # Definimos los encabezados (keys del diccionario)
+#     encabezados = ["materia", "dia", "hora_inicio", "hora_fin", "ubicacion"]
+#     
+#     try:
+#         # newline='' evita saltos de línea extra en Windows
+#         with open("horario_excel.csv", "w", newline='', encoding="utf-8") as archivo_csv:
+#             escritor = csv.DictWriter(archivo_csv, fieldnames=encabezados)
+#             escritor.writeheader() # Escribe la primera fila con los títulos
+#             for m in lista_materias:
+#                 escritor.writerow(m) # Escribe cada materia
+#         print("\n¡Exportación exitosa! Busca el archivo 'horario_excel.csv' y ábrelo con Excel.")
+#     except Exception as e:
+#         print(f"Error al exportar a CSV: {e}")
+# --- FUNCIONALIDAD: ESTADÍSTICAS SIMPLES ---
+# def mostrar_estadisticas(lista_materias):
+#     total_clases = len(lista_materias)
+#     if total_clases == 0:
+#         print("\nNo tienes materias registradas para mostrar estadísticas.")
+#         return
+#
+#     # Diccionario para agrupar cuántas clases hay por día
+#     conteo_por_dia = {}
+#     for m in lista_materias:
+#         dia = m["dia"].capitalize()
+#         if dia in conteo_por_dia:
+#             conteo_por_dia[dia] += 1
+#         else:
+#             conteo_por_dia[dia] = 1
+#
+#     print("\n==========================================")
+#     print(f"ESTADÍSTICAS DEL HORARIO")
+#     print("==========================================")
+#     print(f"Total de clases registradas: {total_clases}")
+#     print("\nClases por día:")
+#     # iteramos el diccionario usando .items()
+#     for dia, cantidad in conteo_por_dia.items():
+#         print(f" - {dia}: {cantidad} clase(s)")
+#     print("==========================================\n")

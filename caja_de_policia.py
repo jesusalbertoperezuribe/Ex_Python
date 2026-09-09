@@ -22,3 +22,18 @@ def datoscorrectos(nombremateriaoactividad, diadelasemana, horadeinicio, horadef
                 return False
 
     return True
+
+# --- FUNCIONALIDAD NUEVA: VALIDACIÓN DEL BUSCADOR ---
+# def es_criterio_valido(opcion_busqueda):
+#     # Solo permitimos buscar por las opciones predefinidas en el menú (1 o 2)
+#     if opcion_busqueda in ["1", "2"]:
+#         return True
+#     else:
+#         print("Error: Opción de búsqueda no válida. Seleccione 1 o 2.")
+#         return False
+# --- FUNCIONALIDAD: VALIDAR BORRADO ---
+# def confirmar_borrado(respuesta):
+#     # Validamos que el usuario escriba 'si' ignorando mayúsculas
+#     if respuesta.lower() in ["si", "s", "sí"]:
+#         return True
+#     return False

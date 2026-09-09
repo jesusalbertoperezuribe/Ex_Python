@@ -125,3 +125,78 @@ while activo:
         
     else:
         print("\nOpción no válida. Por favor, ingrese una opción del 1 al 6.")
+
+# --- FUNCIONALIDAD NUEVA: MENÚ DE BÚSQUEDA ---
+#     elif opcion == 6:
+#         print("\n¿Qué parámetro desea buscar?")
+#         print("1. Por Día de la semana (Ej: Lunes)")
+#         print("2. Por Nombre de la Materia (Ej: Física)")
+#         tipo = input("Seleccione 1 o 2: ")
+#
+#         if caja_de_policia.es_criterio_valido(tipo):
+#             if tipo == "1":
+#                 valor = input("Ingrese el día que desea buscar: ")
+#                 # Validamos vacíos igual que en el resto del código
+#                 if len(valor.strip()) > 0:
+#                     caja_de_herramientas.buscar_en_horario(lista_materias, "dia", valor)
+#                 else:
+#                     print("Error: No puede dejar el campo vacío.")
+#             elif tipo == "2":
+#                 valor = input("Ingrese el nombre de la materia: ")
+#                 if len(valor.strip()) > 0:
+#                     caja_de_herramientas.buscar_en_horario(lista_materias, "materia", valor)
+#                 else:
+#                     print("Error: No puede dejar el campo vacío.")
+
+#si es por profesor se hace lo mismo que por materia y dia pero con el nombre del profesor
+
+# ## (código anterior de opcion 1)
+#         decirubicacion = input("Ingrese la ubicación (opcional, presione ENTER para omitir): ")
+#         if decirubicacion.strip() == "":
+#             decirubicacion = "sin ubicación"
+            
+#         # --- NUEVO PARA PROFESOR ---
+#         nombre_profesor = input("Ingrese el nombre del profesor (opcional): ")
+#         if nombre_profesor.strip() == "":
+#             nombre_profesor = "Sin asignar"
+
+#         if caja_de_policia.datoscorrectos(nombremateriaoactividad, diadelasemana, horadeinicio, horadefin, decirubicacion, lista_materias):
+#             nueva_materia = {
+#                 "materia": nombremateriaoactividad,
+#                 "dia": diadelasemana,
+#                 "hora_inicio": horadeinicio,
+#                 "hora_fin": horadefin,
+#                 "ubicacion": decirubicacion,
+#                 "profesor": nombre_profesor # <-- LLAVE NUEVA AÑADIDA
+#             }
+#             # (sigue el código normal...)
+#opcion3 materia_encontrada["profesor"] = nuevo_profesor
+# --- FUNCIONALIDAD NUEVA: MENÚ DE BÚSQUEDA ---
+    # elif opcion == 6:
+    #     print("\n¿Qué parámetro desea buscar?")
+    #     print("1. Por Día de la semana")
+    #     print("2. Por Nombre de la Materia")
+    #     print("3. Por Profesor") # <-- NUEVA OPCIÓN
+    #     tipo = input("Seleccione 1, 2 o 3: ")
+
+    #     # Asumiendo que actualizaste es_criterio_valido para permitir "3"
+    #     if tipo == "3":
+    #         valor = input("Ingrese el nombre del profesor: ")
+    #         if len(valor.strip()) > 0:
+    #             caja_de_herramientas.buscar_en_horario(lista_materias, "profesor", valor)
+    #         else:
+    #             print("Error: No puede dejar el campo vacío.")
+    # --- FUNCIONALIDAD: MENÚ VACIAR HORARIO ---
+#     elif opcion == 7: # (Cambia el número según tu menú)
+#         print("\n¡ADVERTENCIA! Esta acción borrará todas las materias.")
+#         seguro = input("¿Está seguro de vaciar el horario? (si/no): ")
+#         if caja_de_policia.confirmar_borrado(seguro):
+#             caja_de_herramientas.vaciar_horario(lista_materias)
+#         else:
+#             print("\nAcción cancelada. Tu horario está a salvo.")
+# --- FUNCIONALIDAD: MENÚ EXPORTAR ---
+#     elif opcion == 8: # (Cambia el número según tu menú)
+#         caja_de_herramientas.exportar_a_csv(lista_materias)
+# --- FUNCIONALIDAD: MENÚ ESTADÍSTICAS ---
+#     elif opcion == 9: # (Cambia el número según tu menú)
+#         caja_de_herramientas.mostrar_estadisticas(lista_materias)
