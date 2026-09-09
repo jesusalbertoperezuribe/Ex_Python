@@ -108,7 +108,7 @@ def generar_balance(lista_materias):
 for m in lista_materias:
             if m["dia"].lower() in [dia.lower(), dia.lower().replace('é', 'e')]:
                 eventos_dia.append(m)
-                # Calcular diferencia de horas (asumiendo formato HH:MM)
+                # Calcular diferencia de horas
                 try:
                     hora_inicio = int(m["hora_inicio"].split(":")[0])
 
