@@ -105,10 +105,13 @@ def generar_balance(lista_materias):
     # un ciclo para mirar cuales son las clases, estudio y descansos y poder imprimir en el balance_semanal.json
     
 
-    # if dia and balance_semanal:
-    #     balance_semanal=[]
-    #     for m in lista_materias:
-    #         if m[dia].lower()in
+for m in lista_materias:
+            if m["dia"].lower() in [dia.lower(), dia.lower().replace('é', 'e')]:
+                eventos_dia.append(m)
+                # Calcular diferencia de horas (asumiendo formato HH:MM)
+                try:
+                    hora_inicio = int(m["hora_inicio"].split(":")[0])
+
 
 
     try:
