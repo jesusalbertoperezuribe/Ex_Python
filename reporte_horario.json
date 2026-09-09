@@ -3,25 +3,25 @@
         "dia": "Lunes",
         "eventos": [
             {
-                "materia": "Programación",
+                "materia": "Clases",
                 "hora_inicio": "02:00 PM",
                 "hora_fin": "04:00 PM",
                 "ubicacion": "Laboratorio 3"
             },
             {
-                "materia": "Matemáticas",
+                "materia": "Clases",
                 "hora_inicio": "08:00 AM",
                 "hora_fin": "10:00 AM",
                 "ubicacion": "Aula 101"
             },
             {
-                "materia": "Inglés",
+                "materia": "Estudio",
                 "hora_inicio": "10:00 AM",
                 "hora_fin": "12:00 PM",
                 "ubicacion": "Aula 201"
             },
             {
-                "materia": "Almuerzo",
+                "materia": "Descanso",
                 "hora_inicio": "12:00 PM",
                 "hora_fin": "02:00 PM",
                 "ubicacion": "Cafetería"
@@ -32,13 +32,13 @@
         "dia": "Martes",
         "eventos": [
             {
-                "materia": "Física",
+                "materia": "Estudio",
                 "hora_inicio": "08:00 AM",
                 "hora_fin": "10:00 AM",
                 "ubicacion": "Aula 202"
             },
             {
-                "materia": "Almuerzo",
+                "materia": "Descanso",
                 "hora_inicio": "12:00 PM",
                 "hora_fin": "02:00 PM",
                 "ubicacion": "Cafetería"
@@ -49,37 +49,37 @@
         "dia": "Miércoles",
         "eventos": [
             {
-                "materia": "Programacion",
+                "materia": "Descanso",
                 "hora_inicio": "02:00",
                 "hora_fin": "03:00",
                 "ubicacion": "Principal"
             },
             {
-                "materia": "Inglés",
+                "materia": "Clases",
                 "hora_inicio": "02:00 PM",
                 "hora_fin": "04:00 PM",
                 "ubicacion": "Aula 201"
             },
             {
-                "materia": "python",
+                "materia": "Clases",
                 "hora_inicio": "03:00",
                 "hora_fin": "04:00",
                 "ubicacion": "sin ubicación"
             },
             {
-                "materia": "Matemáticas",
+                "materia": "Clases",
                 "hora_inicio": "08:00 AM",
                 "hora_fin": "10:00 AM",
                 "ubicacion": "Aula 101"
             },
             {
-                "materia": "Física",
+                "materia": "Estudio",
                 "hora_inicio": "10:00 AM",
                 "hora_fin": "12:00 PM",
                 "ubicacion": "Aula 202"
             },
             {
-                "materia": "Almuerzo",
+                "materia": "Descanso",
                 "hora_inicio": "12:00 PM",
                 "hora_fin": "02:00 PM",
                 "ubicacion": "Cafetería"
@@ -90,13 +90,13 @@
         "dia": "Jueves",
         "eventos": [
             {
-                "materia": "Química",
+                "materia": "Estudio",
                 "hora_inicio": "08:00 AM",
                 "hora_fin": "10:00 AM",
                 "ubicacion": "Laboratorio 1"
             },
             {
-                "materia": "Almuerzo",
+                "materia": "Descanso",
                 "hora_inicio": "12:00 PM",
                 "hora_fin": "02:00 PM",
                 "ubicacion": "Cafetería"
@@ -107,28 +107,34 @@
         "dia": "Viernes",
         "eventos": [
             {
-                "materia": "Quimica",
+                "materia": "Estudio",
                 "hora_inicio": "05:00",
                 "hora_fin": "06:00",
                 "ubicacion": "sin ubicación"
             },
             {
-                "materia": "Historia",
+                "materia": "Clases",
                 "hora_inicio": "08:00 AM",
                 "hora_fin": "10:00 AM",
                 "ubicacion": "Aula 105"
             },
             {
-                "materia": "Programación",
+                "materia": "Estudio",
                 "hora_inicio": "10:00 AM",
                 "hora_fin": "12:00 PM",
                 "ubicacion": "Laboratorio 3"
             },
             {
-                "materia": "Almuerzo",
+                "materia": "Descanso",
                 "hora_inicio": "12:00 PM",
                 "hora_fin": "02:00 PM",
                 "ubicacion": "Cafetería"
+            },
+            {
+                "materia": "clase",
+                "hora_inicio": "16:00",
+                "hora_fin": "17:00",
+                "ubicacion": "Secundario"
             }
         ]
     }
