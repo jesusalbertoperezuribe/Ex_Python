@@ -94,29 +94,29 @@ def generar_reporte(lista_materias):
     except Exception as e:
         print(f"Error al guardar el reporte: {e}")
 
-def generar_balance(lista_materias):
-    dia=['lunes','martes','miercoles','jueves','viernes']
-    reporte=[]
+# def generar_balance(lista_materias):
+#     dia=['lunes','martes','miercoles','jueves','viernes']
+#     reporte=[]
 
-    print("\n==========================================")
-    print("Balance Semanal")
-    print("==========================================")
+#     print("\n==========================================")
+#     print("Balance Semanal")
+#     print("==========================================")
 
-    # un ciclo para mirar cuales son las clases, estudio y descansos y poder imprimir en el balance_semanal.json
+#     # un ciclo para mirar cuales son las clases, estudio y descansos y poder imprimir en el balance_semanal.json
     
 
-for m in lista_materias:
-            if m["dia"].lower() in [dia.lower(), dia.lower().replace('é', 'e')]:
-                eventos_dia.append(m)
-                # Calcular diferencia de horas
-                try:
-                    hora_inicio = int(m["hora_inicio"].split(":")[0])
+# for m in lista_materias:
+#             if m["dia"].lower() in [dia.lower(), dia.lower().replace('é', 'e')]:
+#                 eventos_dia.append(m)
+#                 # Calcular diferencia de horas
+#                 try:
+#                     hora_inicio = int(m["hora_inicio"].split(":")[0])
 
 
 
-    try:
-        with open("balance_semanal.json", "w", encoding="utf-8") as archivo:
-            archivo.write(json.dumps(reporte, indent=4, ensure_ascii=False))
-        print("\n¡Reporte JSON generado exitosamente como 'balance_semanal.json'!")
-    except Exception as e:
-        print(f"Error al guardar el balance: {e}")
+#     try:
+#         with open("balance_semanal.json", "w", encoding="utf-8") as archivo:
+#             archivo.write(json.dumps(reporte, indent=4, ensure_ascii=False))
+#         print("\n¡Reporte JSON generado exitosamente como 'balance_semanal.json'!")
+#     except Exception as e:
+#         print(f"Error al guardar el balance: {e}")
